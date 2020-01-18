@@ -1,0 +1,15 @@
+
+
+# Ignore auto generated python files
+__pycache__
+.pytest_cache
+
+# ignore assets that I'm currently working with
+Audio
+Audio copy
+
+# ignore python virtual environment
+env
+
+# ignore vscode settings
+.vscode
