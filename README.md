@@ -1,5 +1,10 @@
 # Asset Importer
 
+I don't really want to rewrite code that doesn't need to be rewritten, so I started this project. The first milestone would be to "repository/data stream" java files and rename audio files so they are valid for android compilation.
+
+End goal of the project would be to get it online, and reading directory from the android libraries that I'm trying to build.
+
+
 ### Import the important files
 
 Notes: 
