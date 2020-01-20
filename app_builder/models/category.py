@@ -25,6 +25,7 @@ class Category:
 
     def addWord(self, word):
         self.words.append(word)
+        word.setCategoryName(self.title.lower())
 
     def getWords(self):
         return self.words

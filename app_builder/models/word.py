@@ -26,6 +26,9 @@ class Word:
 
         return self.android_filename
 
+    def setCategoryName(self, category):
+        self.android_filename = f"{category}_{self.android_filename}"
+
     def setDisplayName(self, display_name):
         self.display_name = display_name
 

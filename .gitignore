@@ -13,3 +13,6 @@ env
 
 # ignore vscode settings
 .vscode
+
+# ignore output
+output

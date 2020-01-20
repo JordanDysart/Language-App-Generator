@@ -18,7 +18,6 @@ import re
 from os import path, getenv
 from shutil import copyfile
 
-
 PROJECT_DIR  = getenv('PROJECT_DIR')
 APP_DIR      = 'app_builder/'
 OUTPUT_DIR   = path.join(PROJECT_DIR, APP_DIR, 'output/')
