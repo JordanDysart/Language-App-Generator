@@ -8,11 +8,11 @@
 #
 # Purpose : Test the Word object and functions
 
-import unittest
+import unittest, context
 
-from library import Library
-from category import Category
-from word import Word
+from app_builder.models.word import Word
+from app_builder.models.category import Category
+from app_builder.models.library import Library
 
 class LibraryTest(unittest.TestCase):
 

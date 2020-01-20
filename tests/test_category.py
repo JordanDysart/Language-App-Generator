@@ -8,10 +8,10 @@
 #
 # Purpose : Test Category object & functions
 
-import unittest
+import unittest, context
 
-from category import Category
-from word import Word
+from app_builder.models.category import Category
+from app_builder.models.word import Word
 
 
 class CategoryTests(unittest.TestCase):
@@ -45,10 +45,6 @@ class CategoryTests(unittest.TestCase):
             'January': 'january.mp3',\
             'December':'december.flac'\
             }, category.getCategoryDictionary())
-        
-
-
-    
 
 
 if __name__ == "__main__":

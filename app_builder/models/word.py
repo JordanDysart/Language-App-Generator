@@ -7,9 +7,10 @@
 # Version : 0.1.0 
 #
 # Purpose : object representation of our word
-# Note    : On it's own this object will only hold a filename
+# Note    : This file will hold reference to the word and filename (for audiofile)
 
-from laam.rename import makeDisplayName, makeAndroidFileName
+
+from app_builder.utils.rename import makeDisplayName, makeAndroidFileName
 
 class Word:
 

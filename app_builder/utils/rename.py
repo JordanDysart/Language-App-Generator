@@ -42,9 +42,9 @@ def removeSymbols(name, *args):
     remove all specified args from name
     '''
     for symbol in args:
-    #     name = name.replace(symbol, '')
+        name = name.replace(symbol, '')
 
-        name = name.strip(symbol)
+        # name = name.strip(symbol)
     return name
 
 def makeDisplayName(name):

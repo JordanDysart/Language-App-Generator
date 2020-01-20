@@ -8,9 +8,9 @@
 #
 # Purpose : Test the functions built in rename
 
-import unittest
+import unittest, context
 
-from rename import *
+from app_builder.utils.rename import *
 
 class TestGetPath(unittest.TestCase):
 

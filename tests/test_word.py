@@ -8,10 +8,9 @@
 #
 # Purpose : Test the Word object and functions
 
-import unittest
+import unittest, context
 
-from word import Word
-
+from app_builder.models.word import Word
 
 class WordTests(unittest.TestCase):
 

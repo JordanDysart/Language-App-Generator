@@ -17,12 +17,14 @@ class Library:
         self.categories.append(category)
 
     def getCategory(self):
-        return self.categories
+
+        return [category.getTitle() for category in self.categories ]
 
     def getLibrary(self):
         library = {}
         for category in self.categories:
             library[category.getTitle()] = category.getCategoryDictionary()
+            
         return library
 
     

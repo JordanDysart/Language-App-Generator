@@ -1,0 +1,53 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class AppDataStream {
+
+    // {{ list<string> categories }}
+
+    // {{ list<Integer> icons }}
+
+    public AppDataStream() {
+    }
+
+    // for categories
+    public String[] getCategories() {
+        return categories;
+    }
+    
+
+    public Integer[] getIconList() {
+        return iconList;
+    }
+
+    // for category language
+    public String[] getCategory(String category) {
+        int index = getIndex(categories, category);
+        return categoryLanguage[index];
+    }
+
+    public String[] getCategoryLanguage(Integer index ) {
+        return categoryLanguage[index];
+    }
+
+    public ArrayList<Integer> getCategoryAudio(Integer index) {
+        ArrayList<Integer> audioArray = new ArrayList<>();
+
+        Collections.addAll(audioArray, audioList[index]);
+        return audioArray;
+    }
+
+    private int getIndex(String[] array, String search) {
+
+        int index = -1;
+        for (int i=0;i<array.length;i++) {
+            if (array[i].equals(search)) {
+                index = i;
+                break;
+            }
+        }
+        return index;
+    }
+
+
+}

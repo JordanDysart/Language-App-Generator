@@ -9,9 +9,9 @@
 # Purpose : Copy and transform these pesky files from boss
 
 import os, sys
-from category import Category
-from word import Word
-from library import Library
+from models.category import Category
+from models.word import Word
+from models.library import Library
 
 from laam.rename import getPathTo, idAudioFile
 
