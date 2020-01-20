@@ -3,9 +3,15 @@ import java.util.Collections;
 
 public class AppDataStream {
 
-    // {{ list<string> categories }}
+    private String[] categories = {
+        {{categories}}
+    };
 
-    // {{ list<Integer> icons }}
+    private Integer[] icons = {
+        {{icons}}
+    }
+
+    
 
     public AppDataStream() {
     }
@@ -14,7 +20,7 @@ public class AppDataStream {
     public String[] getCategories() {
         return categories;
     }
-    
+
 
     public Integer[] getIconList() {
         return iconList;
@@ -49,5 +55,8 @@ public class AppDataStream {
         return index;
     }
 
+    {{List<Categories>}}
+
+    {{List<Audio>}}
 
 }

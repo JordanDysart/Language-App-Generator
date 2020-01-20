@@ -1,0 +1,15 @@
+    private int getIndex(String[] array, String search) {
+
+        int index = -1;
+        for (int i=0;i<array.length;i++) {
+            if (array[i].equals(search)) {
+                index = i;
+                break;
+            }
+        }
+        return index;
+    }
+
+    {{List<Categories>}}
+
+    {{List<Audio>}}
